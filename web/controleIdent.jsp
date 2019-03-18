@@ -28,7 +28,7 @@ comm.setString (2,request.getParameter("pswd"));
 java.sql.ResultSet rs=comm.executeQuery();
 //balayage du ResultSet
 if (rs.next())
-out.print(""); //client existant, pas d'erreur'
+out.print("<h1>Vous avez été identifié avec succès!!!</h1>"); //client existant, pas d'erreur'
 else
 out.print("Vous n'êtes pas inscrit !! ");
 //fermeture de la commande
@@ -37,12 +37,3 @@ comm.close();
 con.close();
 
 %>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        
-    </body>
-</html>

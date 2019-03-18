@@ -36,3 +36,4 @@ function controleIdentAjax()
             document.getElementById('pswd').value, true);
     xhr.send(null);
 }
+
