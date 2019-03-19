@@ -1,0 +1,40 @@
+{
+   "ligne":
+[
+{ "reference":"JZ001 ",
+"titre":"between the bar",
+"auteur":"Eliott Smith",
+"photo":"cdrock1.jpg",
+"editeur":"Polygram ",
+"prix":"120"
+},
+{ "reference":"JZ002 ",
+"titre":"purple haze",
+"auteur":"Jimi Hendrix",
+"photo":"cdrock2.jpg",
+"editeur":"Sony ",
+"prix":"140"
+},
+{ "reference":"JZ003 ",
+"titre":"Sunday Bloody Sunday",
+"auteur":"U2",
+"photo":"cdrock3.jpg",
+"editeur":"Polygram ",
+"prix":"80"
+},
+{ "reference":"JZ004 ",
+"titre":"rollin",
+"auteur":"Limp Bizkit",
+"photo":"cdrock4.jpg",
+"editeur":"Universal ",
+"prix":"20"
+},
+{ "reference":"JZ005 ",
+"titre":"Fear of the dark",
+"auteur":"Iron Maiden",
+"photo":"cdrock5.jpg",
+"editeur":"EMI ",
+"prix":"666"
+}
+]
+}

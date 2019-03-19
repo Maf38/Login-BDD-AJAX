@@ -25,7 +25,7 @@ java.sql.ResultSet rs=comm.executeQuery();
 </TD>
 <TD>
 <!-- Sur l'événement onchange, on appelle la fonction ajax qui va rafraichir le catalogue -->
-<select id="genre" onchange="rafraichirCatAjax()" language="javascript" >
+<select id="genre" onchange="rafraichirCatJsonAjax()" language="javascript" >
 <%while (rs.next())
 {%>
 <option><%=rs.getString("genre")%></option>
