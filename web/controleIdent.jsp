@@ -27,11 +27,16 @@ comm.setString (1,request.getParameter("identifiant"));
 comm.setString (2,request.getParameter("pswd"));
 java.sql.ResultSet rs=comm.executeQuery();
 //balayage du ResultSet
-if (rs.next())
-out.print("<h1>Vous avez été identifié avec succès!!!</h1>"); //client existant, pas d'erreur'
-else
-out.print("Vous n'êtes pas inscrit !! ");
+if (rs.next()){
+out.print("<h1>Vous avez été identifié avec succès!!!</h1>");
+RequestDispatcher dispatcher=request.getRequestDispatcher("catalogue.jsp");
+dispatcher.forward(request,response);
+}
+//client existant, pas d'erreur'
+else{
+out.print("Vous n'êtes pas inscrit !!");
 //fermeture de la commande
+}
 comm.close();
 //fermer la connection
 con.close();
